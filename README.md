@@ -1,2 +1,2 @@
-Stanford
-========
+Boggle
+======
