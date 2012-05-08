@@ -1,0 +1,1 @@
+This implements a life simulation. The main file is 'life.cpp'.

@@ -1,0 +1,185 @@
+TLife
+v7
+r0
+t338952568.025361
+cCheck dependencies
+cProcessInfoPlistFile ./Life.app/Contents/Info.plist Info.plist
+cCompileC build/life.build/Debug/Life.build/Objects-normal/i386/life.o /Users/jerrycainjr/Desktop/assn-1-life-mac/life.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+cCompileC build/life.build/Debug/Life.build/Objects-normal/i386/lifeGraphics.o /Users/jerrycainjr/Desktop/assn-1-life-mac/lifeGraphics.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+cLd ./Life.app/Contents/MacOS/Life normal i386
+cTouch ./Life.app
+
+N./Life.app
+t1317259768
+s102
+
+N./Life.app/Contents/Info.plist
+t1269909299
+s710
+
+N./Life.app/Contents/MacOS/Life
+t1317259768
+s106328
+
+N./Life.app/Contents/PkgInfo
+t1269909299
+s8
+
+N/Developer/SDKs/MacOSX10.5.sdk
+c000000004B7D589B00000000000000EE
+t1266505883
+s238
+
+N/Developer/SDKs/MacOSX10.6.sdk
+c000000004B99A23900000000000000EE
+t1268359737
+s238
+
+N/System/Library/Frameworks/Carbon.framework/Carbon
+c000000004E57CFD40000000000006530
+t1314377684
+s25904
+
+N/System/Library/Frameworks/Cocoa.framework/Cocoa
+c000000004E57CFD40000000000006560
+t1314377684
+s25952
+
+N/System/Library/Frameworks/QuickTime.framework/QuickTime
+c000000004E57D04D000000000032B6C0
+t1314377805
+s3323584
+
+N/Users/jerrycainjr/Desktop/assn-1-life-mac/build/life.build/Debug/Life.build/Objects-normal/i386/Life.LinkFileList
+c000000004E83C9F700000000000000D8
+t1317259767
+s216
+
+N/Users/jerrycainjr/Desktop/assn-1-life-mac/build/life.build/Debug/Life.build/Objects-normal/i386/life.o
+t1317259767
+s70092
+
+N/Users/jerrycainjr/Desktop/assn-1-life-mac/build/life.build/Debug/Life.build/Objects-normal/i386/lifeGraphics.o
+t1317259767
+s43840
+
+N/Users/jerrycainjr/Desktop/assn-1-life-mac/cs106/extgraph.h
+c0000000049D58EC40000000000004310
+t1238732484
+s17168
+i"genlib.h"
+i"graphics.h"
+
+N/Users/jerrycainjr/Desktop/assn-1-life-mac/cs106/genlib.h
+c0000000049D58EC400000000000005B5
+t1238732484
+s1461
+i<string>
+
+N/Users/jerrycainjr/Desktop/assn-1-life-mac/cs106/graphics.h
+c0000000049D58EC400000000000012DA
+t1238732484
+s4826
+
+N/Users/jerrycainjr/Desktop/assn-1-life-mac/cs106/libcs106.a
+c0000000049D591120000000000064DE8
+t1238733074
+s413160
+
+N/Users/jerrycainjr/Desktop/assn-1-life-mac/cs106/random.h
+c0000000049D58EC400000000000007D6
+t1238732484
+s2006
+
+N/Users/jerrycainjr/Desktop/assn-1-life-mac/cs106/simpio.h
+c0000000049D58EC40000000000000673
+t1238732484
+s1651
+i"genlib.h"
+
+N/Users/jerrycainjr/Desktop/assn-1-life-mac/cs106/strutils.h
+c0000000049D58EC4000000000000087A
+t1238732484
+s2170
+i"genlib.h"
+
+N/Users/jerrycainjr/Desktop/assn-1-life-mac/life.cpp
+c000000004ABCF7C20000000000000408
+t1253898178
+s1032
+i"genlib.h"
+i"extgraph.h"
+i"simpio.h"
+i<iostream>
+
+N/Users/jerrycainjr/Desktop/assn-1-life-mac/lifeGraphics.cpp
+c000000004521B6870000000000001A89
+t1159837319
+s6793
+i"lifeGraphics.h"
+i"genlib.h"
+i"extgraph.h"
+i"random.h"
+i"strutils.h"
+
+N/Users/jerrycainjr/Desktop/assn-1-life-mac/lifeGraphics.h
+c00000000451DD05C0000000000000863
+t1159581788
+s2147
+
+NInfo.plist
+c0000000049D585C60000000000000326
+t1238730182
+s806
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies338952567#338952567#0(0"0(0#1#0"2#0"0#
+
+CCompileC build/life.build/Debug/Life.build/Objects-normal/i386/life.o /Users/jerrycainjr/Desktop/assn-1-life-mac/life.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+s338952567.228205
+e338952567.640633
+r1
+xCompileC
+xbuild/life.build/Debug/Life.build/Objects-normal/i386/life.o
+x/Users/jerrycainjr/Desktop/assn-1-life-mac/life.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@59"Compile /Users/jerrycainjr/Desktop/assn-1-life-mac/life.cpp338952567#338952567#0(0"0(0#0#51"/Users/jerrycainjr/Desktop/assn-1-life-mac/life.cpp2#864"    cd /Users/jerrycainjr/Desktop/assn-1-life-mac    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/jerrycainjr/Desktop/assn-1-life-mac/build/life.build/Debug/Life.build/Life.hmap -Wall -Wno-sign-compare -F. -Ics106 -Iinclude -I/Users/jerrycainjr/Desktop/assn-1-life-mac/build/life.build/Debug/Life.build/DerivedSources/i386 -I/Users/jerrycainjr/Desktop/assn-1-life-mac/build/life.build/Debug/Life.build/DerivedSources -fstack-check -c /Users/jerrycainjr/Desktop/assn-1-life-mac/life.cpp -o /Users/jerrycainjr/Desktop/assn-1-life-mac/build/life.build/Debug/Life.build/Objects-normal/i386/life.o0#
+
+CCompileC build/life.build/Debug/Life.build/Objects-normal/i386/lifeGraphics.o /Users/jerrycainjr/Desktop/assn-1-life-mac/lifeGraphics.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+s338952567.230612
+e338952567.564520
+r1
+xCompileC
+xbuild/life.build/Debug/Life.build/Objects-normal/i386/lifeGraphics.o
+x/Users/jerrycainjr/Desktop/assn-1-life-mac/lifeGraphics.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@67"Compile /Users/jerrycainjr/Desktop/assn-1-life-mac/lifeGraphics.cpp338952567#338952567#0(0"0(0#0#59"/Users/jerrycainjr/Desktop/assn-1-life-mac/lifeGraphics.cpp2#880"    cd /Users/jerrycainjr/Desktop/assn-1-life-mac    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/jerrycainjr/Desktop/assn-1-life-mac/build/life.build/Debug/Life.build/Life.hmap -Wall -Wno-sign-compare -F. -Ics106 -Iinclude -I/Users/jerrycainjr/Desktop/assn-1-life-mac/build/life.build/Debug/Life.build/DerivedSources/i386 -I/Users/jerrycainjr/Desktop/assn-1-life-mac/build/life.build/Debug/Life.build/DerivedSources -fstack-check -c /Users/jerrycainjr/Desktop/assn-1-life-mac/lifeGraphics.cpp -o /Users/jerrycainjr/Desktop/assn-1-life-mac/build/life.build/Debug/Life.build/Objects-normal/i386/lifeGraphics.o0#
+
+CLd ./Life.app/Contents/MacOS/Life normal i386
+s338952567.640726
+e338952568.022884
+r1
+xLd
+x./Life.app/Contents/MacOS/Life
+xnormal
+xi386
+lSLF07#2@35"Link ./Life.app/Contents/MacOS/Life338952567#338952568#0(0"0(0#0#0"2#490"    cd /Users/jerrycainjr/Desktop/assn-1-life-mac    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/g++-4.2 -arch i386 -isysroot /Developer/SDKs/MacOSX10.6.sdk -L. -Lcs106 -L/Users/jerrycainjr/Desktop/assn-1-life-mac/cs106 -F. -filelist /Users/jerrycainjr/Desktop/assn-1-life-mac/build/life.build/Debug/Life.build/Objects-normal/i386/Life.LinkFileList -mmacosx-version-min=10.6 -framework Cocoa -framework Carbon -framework QuickTime -lcs106 -o ./Life.app/Contents/MacOS/Life0#
+
+CProcessInfoPlistFile ./Life.app/Contents/Info.plist Info.plist
+r0
+
+CTouch ./Life.app
+s338952568.022965
+e338952568.025314
+r1
+xTouch
+x./Life.app
+lSLF07#2@16"Touch ./Life.app338952568#338952568#0(0"0(0#0#0"2#83"    cd /Users/jerrycainjr/Desktop/assn-1-life-mac    /usr/bin/touch -c ./Life.app0#
+

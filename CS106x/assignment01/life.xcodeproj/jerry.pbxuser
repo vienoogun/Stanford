@@ -1,0 +1,162 @@
+// !$*UTF8*$!
+{
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = C4D4F7CB106D2FC800B59B8E /* Life */;
+		activeSDKPreference = macosx10.5;
+		activeTarget = 8D1107260486CEB800E47090 /* Life */;
+		addToTargets = (
+			8D1107260486CEB800E47090 /* Life */,
+		);
+		codeSenseManager = C4D4F7A4106D2EF400B59B8E /* Code sense */;
+		executables = (
+			C4D4F7CB106D2FC800B59B8E /* Life */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXExecutablesDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXExecutablesDataSource_NameID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					22,
+					300,
+					519,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXExecutablesDataSource_ActiveFlagID,
+					PBXExecutablesDataSource_NameID,
+					PBXExecutablesDataSource_CommentsID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					341,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXConfiguration.PBXTargetDataSource.PBXTargetDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					591,
+					60,
+					20,
+					48,
+					43,
+					43,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXTargetDataSource_PrimaryAttribute,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 291602074;
+			PBXWorkspaceStateSaveDate = 291602074;
+		};
+		perUserProjectItems = {
+			C44E068711617EBC00C84914 /* PBXTextBookmark */ = C44E068711617EBC00C84914 /* PBXTextBookmark */;
+			C44E068811617EBC00C84914 /* PBXTextBookmark */ = C44E068811617EBC00C84914 /* PBXTextBookmark */;
+		};
+		sourceControlManager = C4D4F7A3106D2EF400B59B8E /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	8D1107260486CEB800E47090 /* Life */ = {
+		activeExec = 0;
+		executables = (
+			C4D4F7CB106D2FC800B59B8E /* Life */,
+		);
+	};
+	C44E068711617EBC00C84914 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C4D4F7A9106D2F1F00B59B8E /* life.cpp */;
+		name = "life.cpp: 11";
+		rLen = 0;
+		rLoc = 162;
+		rType = 0;
+		vrLen = 259;
+		vrLoc = 0;
+	};
+	C44E068811617EBC00C84914 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C4D4F7A9106D2F1F00B59B8E /* life.cpp */;
+		name = "life.cpp: 11";
+		rLen = 0;
+		rLoc = 162;
+		rType = 0;
+		vrLen = 259;
+		vrLoc = 0;
+	};
+	C4D4F7A3106D2EF400B59B8E /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+		};
+	};
+	C4D4F7A4106D2EF400B59B8E /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	C4D4F7A9106D2F1F00B59B8E /* life.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {630, 672}}";
+			sepNavSelRange = "{162, 0}";
+			sepNavVisRange = "{0, 259}";
+			sepNavWindowFrame = "{{15, 188}, {1655, 835}}";
+		};
+	};
+	C4D4F7AD106D2F3800B59B8E /* lifeGraphics.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1596, 4650}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 920}";
+			sepNavWindowFrame = "{{15, 188}, {1655, 835}}";
+		};
+	};
+	C4D4F7CB106D2FC800B59B8E /* Life */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = Life;
+		sourceDirectories = (
+		);
+	};
+}
