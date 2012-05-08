@@ -1,0 +1,1 @@
+This program takes in 2 different string inputs from the user and attempts to connect them using a word ladder, with each subsequent word in the ladder differing from the previous one by one letter. The main file is 'WordLadder.cpp'.

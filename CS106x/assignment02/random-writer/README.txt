@@ -1,0 +1,1 @@
+This program reads in a text provided by the user and does a user-specified k degree Markov model analysis of the text. It then provides a randomly-generate text passage. The main file is 'RandomWriter.cpp'.
